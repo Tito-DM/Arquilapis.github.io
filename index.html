@@ -17,17 +17,43 @@
 <!-- Dropdown Structure -->
 
 <nav>
-  <div class="nav-wrapper black">
+  <div class="nav-wrapper  cyan darken-3">
     <a href="#!" class="brand-logo center">Logo</a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="sass.html">Home</a></li>
+      <li><a class=" amber" href="sass.html">Home</a></li>
       <li><a href="badges.html">Projects</a></li>
       <li><a href="badges.html">Sobre nos</a></li>
+      <li><a href="badges.html">Decoracao</a></li>
+      <li><a href="badges.html">maquetes</a></li>
       <!-- Dropdown Trigger -->
 
     </ul>
   </div>
 </nav>
+
+<div class="carousel carousel-slider center">
+  <div class="upper-layout"></div>
+  <div class="carousel-fixed-item center">
+  </div>
+  <div class="carousel-item white-text" href="#one!">
+    <img  class= "img-slide" src="img/luke-stackpoole-585673-unsplash.jpg">
+    <h2 class="z">First Panel</h2>
+  </div>
+  <div class="carousel-item  white-text" href="#two!">
+    <img class="img-slide" src="img/luke-stackpoole-585673-unsplash.jpg">
+    <h2 class="z">Second Panel</h2>
+  </div>
+  <div class="carousel-item  white-text" href="#three!">
+    <img class="img-slide" src="img/luke-stackpoole-585673-unsplash.jpg">
+    <h2 class="z">Third Panel</h2>
+
+  </div>
+  <div class="carousel-item  white-text" href="#four!">
+    <img class="img-slide" src="img/luke-stackpoole-585673-unsplash.jpg">
+    <h2 class="z">Fourth Panel</h2>
+
+  </div>
+</div>
 
 
 
@@ -37,7 +63,13 @@
 
   <script>
        $(document).ready(function () {
-$('.carousel.carousel-slider').carousel({ fullWidth: true });
+
+        $('.carousel.carousel-slider').carousel({ fullWidth: true, indicators: true, duration: 10});
+         autoplay();
+         function autoplay() {
+           $('.carousel').carousel('next');
+           setTimeout(autoplay, 10000);
+         }
         });
 
 
