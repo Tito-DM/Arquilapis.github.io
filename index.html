@@ -20,17 +20,25 @@
 
 <nav>
   <div class="nav-wrapper  cyan darken-3">
-<a href="#!" class="brand-logo center">Logo
-</a>
+    <a href="#!" class="brand-logo center">Logo</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li><a class=" amber" href="index.html">Home</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="badges.html">Sobre nos</a></li>
       <li><a href="badges.html">Decoracao</a></li>
       <li><a href="badges.html">maquetes</a></li>
-      <!-- Dropdown Trigger -->
+      </ul>
+        <!-- side menu Trigger -->
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="collapsible.html">Sobre nos</a></li>
+        <li><a href="mobile.html">Decoracao</a></li>
+        <li><a href="mobile.html">maquetes</a></li>
+      </ul>
 
-    </ul>
+
   </div>
 </nav>
 <div class="slider fullscreen fix-slide">
@@ -38,8 +46,8 @@
     <li>
       <img src="img/sven-mieke-1162927-unsplash.jpg"> <!-- random image -->
       <div class="caption right-align">
-        <h3>This is our big Tagline!</h3>
-        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <h3>Preparando um Futuro Melhor</h3>
+        <h5 class="light grey-text text-lighten-3">Para ti a sua familia</h5>
       </div>
     </li>
     <li>
@@ -96,6 +104,7 @@
 
 $(document).ready(function(){
 $('.slider').slider();
+$(".button-collapse").sideNav();
 });
         });
 
