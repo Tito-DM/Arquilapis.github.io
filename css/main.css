@@ -59,3 +59,11 @@
 .menu-border{
   border-bottom: 1px solid rgb(226, 223, 223);
 }
+
+
+.logo-text{
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 3px !important;
+  color:whitesmoke;
+}
