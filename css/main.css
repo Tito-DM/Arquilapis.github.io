@@ -91,3 +91,19 @@ body{
 .slide-text{
   letter-spacing:  2px !important;
 }
+
+
+#appear_img_div{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  opacity: 0.7;
+  background: #002447;
+}
+.model-bgk{
+  background: whitesmoke;
+}
+.model-img-margin{
+  padding-bottom: 10px;
+}
