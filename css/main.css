@@ -107,3 +107,12 @@ body{
 .model-img-margin{
   padding-bottom: 10px;
 }
+
+.descr-text {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 25.5px !important;
+  letter-spacing: 3px !important;
+  margin-bottom: 46px !important;
+  color:#616161;
+}

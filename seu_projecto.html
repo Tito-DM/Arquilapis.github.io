@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body>
+<body class="white">
 <!--nav-->
 <div class="navbar-fixed">
   <nav>
@@ -47,9 +47,9 @@
 </ul>
 
 
-<h1 class="center">Danos a Descricao do seu Projecto</h1>
+<h1 class="center descr-text">Danos a Descricao do seu Projecto</h1>
 
-<div class="container">
+<div class="container ">
      <div class="row">
     <form class="col s12">
       <div class="row">
@@ -98,7 +98,7 @@
 
 
   <div class="row">
-    <form class="col s12">
+    <form action="MAILTO:muandatito@gmail.com" method="POST" class="col s12" enctype="text/plain">
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">mode_edit</i>
@@ -106,6 +106,9 @@
           <label for="icon_prefix2">Descrevenos o seu Projecto</label>
         </div>
       </div>
+        <button class="btn waves-effect waves-light cyan darken-3" type="submit" name="action">Enviar
+            <i class="material-icons right">send</i>
+        </button>
     </form>
   </div>
 
@@ -114,6 +117,17 @@
 
 </div>
 
+<!--floating button-->
+<div class="fixed-action-btn ">
+  <a class="btn-floating btn-large red pulse">
+    <i class="large material-icons">mode_edit</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating green"><i class="material-icons">location_on</i></a></li>
+    <li><a class="btn-floating red"><i class="fab fa-youtube"></i></a></li>
+    <li><a class="btn-floating blue"><i class="fab fa-facebook-f"></i></a></li>
+  </ul>
+</div>
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
