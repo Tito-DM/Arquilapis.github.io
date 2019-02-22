@@ -9,7 +9,7 @@ body{
 
 .img-slide{
   position: absolute;
-  height: 90vh;
+  height: 100vh;
   width: 100% !important;
   z-index: -2;
   top:0;
@@ -80,7 +80,10 @@ body{
 }
 
 .sub-logo-text{
-  font-size: 10px;
+  font-size: 15px;
+
+
+
 }
 
 .z-card-tile{
@@ -175,4 +178,16 @@ body{
 .contact:hover .contact_img{
   transform: scale(1);
   filter: blur(3px) brightness(60%);
+}
+
+.logo-img{
+  width: 260px;
+  height: 100px !important;
+  margin-top: -35px;
+}
+
+.logo-text-side{
+  position: absolute;
+  top: 20%;
+  left: 14%;
 }
