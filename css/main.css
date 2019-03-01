@@ -181,13 +181,29 @@ body{
 }
 
 .logo-img{
-  width: 260px;
+  width: 230px;
   height: 100px !important;
   margin-top: -35px;
+}
+
+@media only screen and (max-width:768px){
+.logo-img {
+   width: 100px;
+   height: 91px !important;
+   margin-top: -35px;
+}
 }
 
 .logo-text-side{
   position: absolute;
   top: 20%;
-  left: 14%;
+  left: 13%;
+}
+
+@media only screen and (max-width: 1024px){
+  .logo-text-side {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+  }
 }
