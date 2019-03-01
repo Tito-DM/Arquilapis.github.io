@@ -1,0 +1,16 @@
+{
+  "name": "nunu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/muanda/nunu.git",
+  "author": "tito Domingos <muandatito@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  }
+}
